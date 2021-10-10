@@ -8,7 +8,7 @@
 {   
     
     // Define o tema do VSCode
-    "workbench.colorTheme": "Omni",
+    "workbench.colorTheme": "Dracula",
     
     // Configuração tamanho e família da fonte //
 
