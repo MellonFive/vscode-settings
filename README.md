@@ -7,13 +7,16 @@
 {   
     
     // Define o tema do VSCode
+    
     "workbench.colorTheme": "Dracula",
     
     // Configuração tamanho e família da fonte //
 
-    "editor.fontSize":14,
+    "editor.fontSize":15,
     "editor.lineHeight":24,
-    "editor.fontFamily":"Fira Code",
+    "editor.fontFamily": "Fira Code",
+    //"editor.fontFamily": "Cascadia Code",
+    // Como colocar fontes em formato json no settings do vscode?
     "editor.fontLigatures":true,
 
     // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
@@ -63,6 +66,7 @@
         "bacana",
         "baita",
         "botao",
+        "bugou",
         "Cascadia",
         "Castelli",
         "codar",
@@ -88,9 +92,11 @@
         "Guarulhos",
         "hamburguer",
         "Helvetica",
+        "heroicons",
         "identar",
         "inital",
         "insidefirst",
+        "mailtrap",
         "Mais",
         "Mell",
         "Mellão",
@@ -101,8 +107,10 @@
         "modernão",
         "multiplos",
         "navegacao",
+        "nextauth",
         "nima",
         "o",
+        "peraí",
         "perform",
         "performático",
         "perspectiva",
@@ -118,6 +126,10 @@
         "refatora",
         "refatoração",
         "Refatorar",
+        "registra",
+        "registrado",
+        "registram",
+        "registro",
         "registroformulario",
         "respectivamente",
         "rolagem",
@@ -127,8 +139,10 @@
         "setar",
         "setinha",
         "subtitulo",
+        "tailwindcss",
         "thirdtitle",
         "tico",
+        "trafegar",
         "treslinhas",
         "UNIBTA",
         "Velho",
@@ -143,6 +157,11 @@
     "sync.removeExtensions": false,
     "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
     "auto-rename-tag.activationOnLanguage": [
+
+
+
+
+
     
     
         "*"
@@ -155,6 +174,12 @@
     "terminal.integrated.tabs.enabled": true,
     "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
-    "terminal.integrated.automationShell.linux": ""
+    "terminal.integrated.automationShell.linux": "",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    }
 }
 ```
