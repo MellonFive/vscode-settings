@@ -6,9 +6,11 @@
 ```json
 {   
     
+   {   
+    
     // Define o tema do VSCode
     
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "Omni",
     
     // Configuração tamanho e família da fonte //
 
@@ -18,6 +20,9 @@
     //"editor.fontFamily": "Cascadia Code",
     // Como colocar fontes em formato json no settings do vscode?
     "editor.fontLigatures":true,
+    "powermode.enabled": true,
+    "powermode.shake.enabled": false,
+    
 
     // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
     
@@ -28,9 +33,15 @@
 
     // Aplica um sinal visual na esquerda da linha selecionada
     "editor.renderLineHighlight":"gutter",
+    "workbench.editor.tabSizing": "shrink",
+
+    
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
+    
 
     // Aumenta a fonte do terminal
-    "terminal.integrated.fontSize":14,
+    "terminal.integrated.fontSize":15,
 
     "liveServer.settings.donotShowInfoMsg": true,
     "workbench.iconTheme": "material-icon-theme",
@@ -65,8 +76,10 @@
         "Arial",
         "bacana",
         "baita",
+        "Balle",
         "botao",
         "bugou",
+        "capcha",
         "Cascadia",
         "Castelli",
         "codar",
@@ -82,7 +95,9 @@
         "desenvolvedores",
         "DEVs",
         "devweb",
+        "digitacao",
         "doidera",
+        "empoderado",
         "experiencia",
         "figma",
         "Flix",
@@ -116,8 +131,10 @@
         "perspectiva",
         "pomodoro",
         "porcentagem",
+        "prazeroso",
         "preconnect",
         "previnir",
+        "procastinado",
         "Proffy",
         "proffys",
         "progressbar",
@@ -132,6 +149,7 @@
         "registro",
         "registroformulario",
         "respectivamente",
+        "responsividade",
         "rolagem",
         "rotacionados",
         "secundary",
@@ -180,6 +198,18 @@
 
         "configurations": [],
         "compounds": []
-    }
+    },
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ],
+    "bracketPairColorizer.depreciation-notice": false,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "editor.cursorWidth": 4,
+    "editor.cursorBlinking": "smooth"
 }
 ```
