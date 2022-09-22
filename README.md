@@ -1,21 +1,18 @@
-<h1>vscode-settings</h1>
-<hr>
-
-<h2 align="center">Aqui está toda a minha configuração que utilizo no meu VScode. Bom aproveito!</h2>
-
-```json
 {
   // Define o tema do VSCode
 
-  "workbench.colorTheme": "Noctis Uva",
+  "workbench.colorTheme": "Omni",
 
   // Configuração tamanho e família da fonte //
 
-  "editor.fontSize": 16,
-  "editor.lineHeight": 25,
+  "editor.fontSize": 17,
+  "editor.lineHeight": 27,
   "editor.fontFamily": "Fira Code",
-  //"editor.fontFamily": "Cascadia Code",
-  // Como colocar fontes em formato json no settings do vscode?
+
+  // "editor.fontFamily": "Cascadia Code",
+
+  // Como colocar fontes em formato json no settings do VScode?
+
   "editor.fontLigatures": true,
   "powermode.enabled": true,
   "powermode.shake.enabled": false,
@@ -32,7 +29,7 @@
   "editor.guides.bracketPairs": "active",
 
   // Aumenta a fonte do terminal
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontSize": 17,
 
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.iconTheme": "material-icon-theme",
@@ -71,6 +68,7 @@
     "appétit",
     "Arial",
     "aspectos",
+    "avancar",
     "bacana",
     "baita",
     "Balle",
@@ -84,6 +82,7 @@
     "cabecalho",
     "capcha",
     "cartao",
+    "cartoes",
     "Cascadia",
     "Castelli",
     "charmander",
@@ -139,6 +138,7 @@
     "ifood",
     "Ilustration",
     "imageurl",
+    "indice",
     "informacoes",
     "inital",
     "insidefirst",
@@ -172,6 +172,7 @@
     "pikachu",
     "Pinterest",
     "planejar",
+    "pokebola",
     "Pokedex",
     "Pokemons",
     "pomodoro",
@@ -218,6 +219,7 @@
     "trafegar",
     "treslinhas",
     "Uchiha",
+    "Udemy",
     "Ultron",
     "UNIBTA",
     "Velho",
@@ -261,6 +263,7 @@
   "editor.cursorBlinking": "smooth",
   "cSpell.languageSettings": [
   
-  ]
+  
+  ],
+  "liveServer.settings.port": 0
 }
-```
