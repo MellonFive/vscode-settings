@@ -1,53 +1,53 @@
 {
-  // Define o tema do VSCode
-
-  "workbench.colorTheme": "Omni",
+  // Define o tema do VScode
+  "workbench.colorTheme": "Dracula",
 
   // Configuração tamanho e família da fonte //
 
   "editor.fontSize": 17,
   "editor.lineHeight": 27,
   "editor.fontFamily": "Fira Code",
-
   // "editor.fontFamily": "Cascadia Code",
-
   // Como colocar fontes em formato json no settings do VScode?
-
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
   "editor.fontLigatures": true,
   "powermode.enabled": true,
   "powermode.shake.enabled": false,
-
   // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
-
   "editor.rulers": [80, 120],
-
   // Aplica um sinal visual na esquerda da linha selecionada
   "editor.renderLineHighlight": "gutter",
+  "editor.tabCompletion": "on",
   "workbench.editor.tabSizing": "shrink",
-
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-
   // Aumenta a fonte do terminal
   "terminal.integrated.fontSize": 17,
-
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.iconTheme": "material-icon-theme",
-  "files.autoSave": "afterDelay",
   "terminal.integrated.shell.windows": "C:\\windows\\System32\\bash.exe",
   "git.enableSmartCommit": true,
+  "editor.tabSize": 2,
   "extensions.ignoreRecommendations": false,
   "workbench.activityBar.visible": true,
-  "php.validate.executablePath": null,
+  // "php.validate.executablePath": null,
   "explorer.confirmDragAndDrop": false,
-  "editor.formatOnSave": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "liveServer.settings.donotVerifyTags": true,
-
-  "emmet.syntaxProfiles": { "javascript": "jsx" },
-  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
   "terminal.integrated.shell.osx": "/bin/zsh",
   "editor.wordWrap": "on",
   "editor.suggestSelection": "first",
@@ -228,17 +228,17 @@
     "zeplin"
   ],
   "cSpell.language": "en,pt",
-  "sync.gist": "424068615051415c6ebcad65d2b763c5",
-  "sync.autoDownload": true,
-  "sync.autoUpload": true,
-  "sync.quietSync": true,
-  "sync.removeExtensions": false,
+  // "sync.gist": "424068615051415c6ebcad65d2b763c5",
+  // "sync.autoDownload": true,
+  // "sync.autoUpload": true,
+  // "sync.quietSync": true,
+  // "sync.removeExtensions": false,
   "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
   "auto-rename-tag.activationOnLanguage": ["*"],
   "http.proxyAuthorization": null,
   "explorer.confirmDelete": false,
   "gitlens.advanced.messages": {
-    "suppressImproperWorkspaceCasingWarning": true
+    // "suppressImproperWorkspaceCasingWarning": true
   },
   "terminal.integrated.tabs.enabled": true,
   "security.workspace.trust.untrustedFiles": "open",
@@ -263,7 +263,18 @@
   "editor.cursorBlinking": "smooth",
   "cSpell.languageSettings": [
   
-  
   ],
-  "liveServer.settings.port": 0
+  "liveServer.settings.port": 0,
+  "json.schemas": [],
+  "files.autoSave": "afterDelay",
+  "explorer.compactFolders": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "[javascript]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "symbols.hidesExplorerArrows": false
 }
